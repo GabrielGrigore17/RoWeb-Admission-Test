@@ -23,32 +23,32 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Title = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Romantic Comedy",
+                        Title = "Home Alone",
+                        ReleaseDate = DateTime.Parse("1990-11-16"),
+                        Genre = "Comedy",
                         Price = 7.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
+                        Title = "Home Alone 2: Lost in New York",
+                        ReleaseDate = DateTime.Parse("1992-11-20"),
                         Genre = "Comedy",
                         Price = 8.99M
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
+                        Title = "Home Alone 3",
+                        ReleaseDate = DateTime.Parse("1997-12-12"),
                         Genre = "Comedy",
                         Price = 9.99M
                     },
 
                     new Movie
                     {
-                        Title = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
+                        Title = "Home Alone 4: Taking Back the House",
+                        ReleaseDate = DateTime.Parse("2002-11-25"),
                         Genre = "Western",
                         Price = 3.99M
                     }
