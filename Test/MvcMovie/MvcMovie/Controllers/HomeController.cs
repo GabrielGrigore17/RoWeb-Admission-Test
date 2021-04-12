@@ -1,13 +1,13 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using MvcMovie.Models;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplicationTest.Models;
 
-namespace WebApplicationTest.Controllers
+namespace MvcMovie.Controllers
 {
     public class HomeController : Controller
     {
